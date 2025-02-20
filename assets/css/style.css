@@ -39,7 +39,6 @@ img {
 
 .btn a {
   color: #fff;
-  padding: 0 10px;
 }
 
 .btn:hover {
@@ -381,12 +380,60 @@ img {
 }
 
 /*-----------------------------------
-# work
------------------------------------*/
-
-/*-----------------------------------
 # extension
 -----------------------------------*/
+.extension {
+  padding: 140px 0;
+  background: #043873;
+}
+
+.extension__body {
+  display: flex;
+  justify-content: space-between;
+  gap: 98px;
+}
+
+.extension__content {
+  padding: 92.5px 0;
+}
+
+.extension__heading {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.extension__heading::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 333px;
+  height: 19px;
+  background-image: url("../images/line-after.svg");
+  bottom: 40px;
+  left: 215px;
+  z-index: -1;
+}
+
+.extension__desc {
+  color: #fff;
+  margin-top: 24px;
+  width: 697px;
+}
+
+.extension__cta {
+  margin-top: 60px;
+  min-width: 171px;
+  line-height: 63px;
+}
+
+.extension__link {
+  margin-right: 10px;
+}
+
+.extension__media {
+  width: 686px;
+}
 
 /*-----------------------------------
 # plan
