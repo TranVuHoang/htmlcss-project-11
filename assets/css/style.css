@@ -625,6 +625,39 @@ img {
 /*-----------------------------------
 # feature
 -----------------------------------*/
+.feature {
+  padding: 140px 0;
+  background: #043873;
+}
+
+.feature__content {
+  width: 1064px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature__heading {
+  color: #fff;
+  margin: 0 auto;
+  line-height: 7.2rem;
+}
+
+.feature__desc {
+  margin-top: 24px;
+  color: #fff;
+}
+
+.feature__cta {
+  margin: 60px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.feature__link {
+
+}
 
 /*-----------------------------------
 # data
