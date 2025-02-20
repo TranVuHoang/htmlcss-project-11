@@ -436,6 +436,42 @@ img {
 }
 
 /*-----------------------------------
+# customize
+-----------------------------------*/
+.customize {
+  padding: 140px 0;
+}
+
+.customize__body {
+  display: flex;
+  justify-content: space-between;
+  gap: 98px;
+}
+
+.customize__img {
+  width: 714px;
+  height: 532px;
+}
+
+.customize__content {
+  padding: 60.54px 0;
+  width: 669px;
+}
+
+.customize__heading {
+  line-height: 104px;
+}
+.customize__desc {
+  margin-top: 24px;
+}
+
+.customize__cta {
+  margin-top: 60px;
+  min-width: 171px;
+  line-height: 63px;
+}
+
+/*-----------------------------------
 # plan
 -----------------------------------*/
 
