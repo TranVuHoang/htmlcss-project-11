@@ -687,13 +687,55 @@ img {
 }
 
 .data__img {
-width: 720px;
-height: 384px;
+  width: 720px;
+  height: 384px;
 }
 
 /*-----------------------------------
 # brand
 -----------------------------------*/
+.brand {
+  padding: 140px 0;
+}
+
+.brand__body {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.brand__title {
+  line-height: 8.7rem;
+  text-align: center;
+}
+
+.brand__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: auto;
+}
+
+.brand__item--apple {
+  width: 55.469px;
+  height: 68px;
+}
+
+.brand__item--msc {
+  width: 287px;
+  height: 62px;
+}
+
+.brand__item--slack {
+  width: 280px;
+  height: 71px;
+}
+
+.brand__item--google {
+  width: 210.996px;
+  height: 69.814px;
+}
 
 /*-----------------------------------
 # app
