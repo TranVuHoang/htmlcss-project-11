@@ -655,13 +655,41 @@ img {
   gap: 10px;
 }
 
-.feature__link {
-
-}
-
 /*-----------------------------------
 # data
 -----------------------------------*/
+.data {
+  padding: 140px 0;
+}
+
+.data__body {
+  display: flex;
+}
+
+.data__content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: space-between;
+  align-items: start;
+  width: 800px;
+  margin: 30px 0;
+}
+
+.data__summary {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.data__heading {
+  line-height: 87px;
+}
+
+.data__img {
+width: 720px;
+height: 384px;
+}
 
 /*-----------------------------------
 # brand
