@@ -11,3 +11,134 @@ body {
   font-size: 1.6rem;
   font-family: "Inter", sans-serif;
 }
+
+/*-----------------------------------
+# Common
+-----------------------------------*/
+a {
+  text-decoration: none;
+}
+
+.btn {
+  border-radius: 8px;
+  background: #4f9cf9;
+  border: 0px solid transparent;
+  color: #fff;
+  line-height: 60px;
+  min-width: 227px;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.container {
+  width: 1480px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+.section-heading {
+  color: #212529;
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+
+.section-desc {
+  color: #212529;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.36px;
+}
+
+/*-----------------------------------
+# Header
+-----------------------------------*/
+.header {
+  padding: 16px 0;
+  background: #043873;
+}
+
+.header__body {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.header__list {
+  display: flex;
+  gap: 32px;
+}
+
+.header__item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__link {
+  padding: 18.5px 0;
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.28; /* 127.778% */
+}
+
+.header__bt {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.header__bt,
+.header__try-link,
+.header__try-icon {
+  cursor: pointer;
+}
+
+.header__cta {
+  margin-left: 60px;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.header__login {
+  color: #043873;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.28; /* 127.778% */
+  letter-spacing: -0.36px;
+  border-radius: 8px;
+  background: #ffe492;
+  line-height: 60px;
+  min-width: 126px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.header__try-link {
+  color: #fff;
+  margin-right: 10px;
+}
