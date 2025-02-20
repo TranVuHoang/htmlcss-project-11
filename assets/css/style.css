@@ -738,8 +738,146 @@ img {
 }
 
 /*-----------------------------------
-# app
+# favorite
 -----------------------------------*/
+.favorite {
+  padding: 140px 0;
+  background: #043873;
+}
+
+.favorite__body {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.favorite__media {
+  width: 582px;
+  height: 471px;
+  position: relative;
+}
+
+.favorite__app {
+  width: 72.75px;
+  height: 72.75px;
+  border-radius: 50%;
+  position: absolute;
+  padding: 14.55px;
+  background: #fff;
+}
+
+.favorite__app--gmail {
+  top: 0;
+  right: 275.74px;
+  z-index: 2;
+}
+
+.favorite__app--dropbox {
+  top: 146.54px;
+  right: 406.36px;
+  z-index: 2;
+}
+
+.favorite__app--slack {
+  top: 146.54px;
+  right: 116.4px;
+  z-index: 2;
+}
+
+.favorite__app--logo {
+  width: 103.929px;
+  height: 103.929px;
+  top: 226.56px;
+  right: 240.08px;
+  z-index: 2;
+}
+
+.favorite__app--outlook {
+  top: 279.13px;
+  right: 509.25px;
+  z-index: 2;
+}
+
+.favorite__app--drive {
+  top: 279.13px;
+  right: 0;
+  z-index: 2;
+}
+
+.favorite__app--calendar {
+  bottom: 14.87px;
+  right: 254.26px;
+  z-index: 2;
+}
+
+.favorite__app--circle-1 {
+  z-index: 1;
+  top: 34.3px;
+  right: 151.74px;
+  width: 291px;
+  height: 291px;
+  background: transparent;
+  border: 2px dashed #4f9cf9;
+}
+
+.favorite__app--circle-2 {
+  z-index: 1;
+  top: 179.8px;
+  right: 254.62px;
+  width: 291px;
+  height: 291px;
+  background: transparent;
+  border: 2px dashed #4f9cf9;
+}
+
+.favorite__app--circle-3 {
+  z-index: 1;
+  top: 179.8px;
+  right: 36.37px;
+  width: 291px;
+  height: 291px;
+  background: transparent;
+  border: 2px dashed #4f9cf9;
+}
+
+.favorite__content {
+  width: 798px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.favorite__summary {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.favorite__heading {
+  line-height: 8.7rem;
+  color: #fff;
+}
+
+.favorite__desc {
+  line-height: 3rem;
+  color: #fff;
+}
+
+.favorite__cta {
+  min-width: 194px;
+  line-height: 63px;
+}
+
+.favorite__link {
+  margin-right: 10px;
+}
+
+.favorite__icon {
+  width: 14px;
+  height: 14px;
+}
 
 /*-----------------------------------
 # feedback
