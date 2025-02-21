@@ -882,6 +882,119 @@ img {
 /*-----------------------------------
 # feedback
 -----------------------------------*/
+.feedback {
+  padding: 140px 0;
+}
+
+.feedback__heading {
+  line-height: 8.4rem;
+  text-align: center;
+}
+
+.feedback__list {
+  margin-top: 60px;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.feedback__item {
+  width: 471.67px;
+  padding: 60px 40px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 15px 10px 50px 0px #0000001a;
+}
+
+.feedback__item--active,
+.feedback__item:hover {
+  background: #4f9cf9;
+}
+
+.feedback__summary {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #212529;
+}
+
+.feedback__summary--active,
+.feedback__item:hover .feedback__summary{
+  border-color: #FFF;
+}
+
+.feedback__icon {
+  width: 86px;
+  height: 61.461px;
+  color: #043873;
+}
+
+.feedback__desc {
+  margin-top: 32px;
+}
+
+.feedback__info {
+  margin-top: 60px;
+  display: flex;
+  gap: 42px;
+  justify-content: space-between;
+}
+
+.feedback__info-name {
+  color: #212529;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.5; /* 150% */
+}
+
+.feedback__info-desc {
+  margin-top: 15px;
+  color: #212529;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.32px;
+}
+
+.feedback__avatar {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+}
+
+/* feedback__dots */
+.feedback__dots {
+  margin: 60px auto 0;
+  width: 60px;
+  display: flex;
+  gap: 12px;
+}
+
+.feedback__dot {
+  /* display: inline-block; */
+  width: 12px;
+  height: 12px;
+  background: #4f9cf9;
+  border-radius: 50%;
+}
+
+.feedback__dot:hover,
+.feedback__dot--active {
+  cursor: pointer;
+  background: #043873;
+}
+
+.feedback__desc--active,
+.feedback__icon--active,
+.feedback__item:hover .feedback__desc,
+.feedback__item:hover .feedback__icon,
+.feedback__item:hover .feedback__info-desc {
+  color: #fff;
+}
+
+.feedback__info--active,
+.feedback__item:hover .feedback__info-name {
+  color: #043873;
+}
 
 /*-----------------------------------
 # install
