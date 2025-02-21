@@ -917,8 +917,8 @@ img {
 }
 
 .feedback__summary--active,
-.feedback__item:hover .feedback__summary{
-  border-color: #FFF;
+.feedback__item:hover .feedback__summary {
+  border-color: #fff;
 }
 
 .feedback__icon {
@@ -999,7 +999,69 @@ img {
 /*-----------------------------------
 # install
 -----------------------------------*/
+.install {
+  margin: 140px 0 32px;
+  background: #043873;
+}
 
+.install__body {
+  margin: 0 auto;
+  width: 608px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+}
+
+.install__head {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.install__heading {
+  line-height: 8.7rem;
+
+  color: #fff;
+}
+
+.install__desc {
+  margin: 0 auto;
+  width: 550px;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.33; /* 133.333% */
+  letter-spacing: -0.48px;
+}
+
+.install__cta {
+  min-width: 218px;
+  line-height: 59px;
+}
+
+.install__link {
+  margin-right: 10px;
+}
+
+.install__cta-desc {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.33; /* 133.333% */
+  letter-spacing: -0.48px;
+}
+
+.install__brands {
+  display: flex;
+  gap: 40px;
+}
+
+.install__brand {
+  width: 60px;
+  height: 60px;
+}
 /*-----------------------------------
 # footer
 -----------------------------------*/
